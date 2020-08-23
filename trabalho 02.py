@@ -5,7 +5,7 @@ x = entrada
 wNovo = [None,None]
 
 
-#etapa de treinamento (or)
+#etapa de treinamento
 #inicialização dos pesos
 def pesos(y):
     bAnterior = 0
