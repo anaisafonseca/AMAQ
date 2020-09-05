@@ -16,10 +16,10 @@ dados = [
     [4.50,11.58],
     [5.00,12.55]
 ]
-
 teta=0
 alfa=0.01
 ciclosMax = 500
+
 
 def treinAdaline():
     wAnt=0.00
@@ -44,6 +44,7 @@ def treinAdaline():
 
     return [wNovo,bNovo]
 
+
 def somatorios():
     somatorioXY=0
     somatorioX=0
@@ -61,6 +62,7 @@ def somatorios():
 
     return [somatorioXY,somatorioX,somatorioY,somatorioX2,somatorioY2,n]
 
+
 def regressao(resultado):
     somatorioXY = resultado[0]
     somatorioX = resultado[1]
@@ -73,6 +75,7 @@ def regressao(resultado):
 
     print('a: %f, b: %f' %(a,b))
 
+    
 def coeficientes(resultado):
     somatorioXY = resultado[0]
     somatorioX = resultado[1]
